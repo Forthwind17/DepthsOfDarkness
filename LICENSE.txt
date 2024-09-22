@@ -3,14 +3,12 @@ The Depths of Darkness Mod and all associated source code, visual assets and aud
 The following stipulations apply to contributing to the Depths of Darkness Mod:
 
   - Open source contributions to this repository are welcome.
-  - If you contribute to the Depths of Darkness Mod, you expressly give the Calamity Team permission to use and reproduce your code and/or assets.
+  - If you contribute to the Depths of Darkness Mod, you expressly give the Depths of Darkness Team permission to use and reproduce your code and/or assets.
   - You certify that all code contributed to the Depths of Darkness Mod is your own work or appropriately licensed for inclusion.
   - We will make good faith efforts to honor reasonable requests to remove contributions from the Depths of Darkness Mod. Requests for your work to be excluded are a privilege, not a right, and we will ignore requests we deem unreasonable.
 
 The following stipulations apply to the Depths of Darkness Mod as a whole:
 
   - You may use the source code of the Depths of Darkness Mod as a reference for building or developing Terraria mods or other software.
-  - Code lifted from the Depths of Darkness Mod repository must be credited to the Calamity Team.
+  - Code lifted from the Depths of Darkness Mod repository must be credited to the Depths of Darkness Team.
   - The Depths of Darkness Mod cannot be redistributed in any form or in any location. The Steam Workshop is the only officially hosted download of the Depths of Darkness Mod.
-  - All music tracks are the property of their respective composers and are used by the Calamity Team with permission.
-
