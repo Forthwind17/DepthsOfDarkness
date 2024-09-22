@@ -1,0 +1,807 @@
+Tiles.TilesOsmiumOre.MapEntry: Osmium
+
+Buffs: {
+	NyctophobiaDebuff: {
+		DisplayName: Nyctophobia
+		Description: You feel a extreme fear of darkness making you vulnerable
+	}
+
+	DarknessSludgePetBuff: {
+		Description: A harmless sludge is following you
+		DisplayName: Gloom Sludge Pet
+	}
+
+	MushSummonBuff: {
+		DisplayName: Small flying fungus
+		Description: The flying fungus will fight for you
+	}
+
+	DarknessDeffensiveBuff: {
+		DisplayName: Knight endurance
+		Description: Reduces damage taken by 8%
+	}
+
+	DarknessOffensiveBuff: {
+		DisplayName: Ruthless assassin
+		Description: Increased ranged critical strike chance, movement speed and acceleration by 6%
+	}
+
+	FrostPowerBuff: {
+		Description: Immune to frostburn, frozen and chilled
+		DisplayName: Frost spirit
+	}
+
+	FallenKnightCurse: {
+		Description: 8% increased melee speed and 4% decreased melee critical strike chance
+		DisplayName: Curse of the fallen
+	}
+
+	ForgottenLightSummonBuff: {
+		DisplayName: Forgotten light relic
+		Description: The forgotten light relic will fight for you
+	}
+
+	SkyGuardianSummonBuff: {
+		DisplayName: Small sky keeper
+		Description: The sky keeper will fight for you
+	}
+}
+
+GameTips: {
+	DepthsOfDarknessTip0: Depths Of Darkness: Once you defeat the boss on your evil biome new enemies will start appearing.
+	DepthsOfDarknessTip1: Depths Of Darkness: Darkness is able to consume anything if strong enough.
+	DepthsOfDarknessTip2: Depths Of Darkness: Perhaps you don't understand your fate yet.
+	DepthsOfDarknessTip3: Depths Of Darkness: Toying with the unknown may bring forth unforseeable consequences...
+}
+
+Items: {
+	HarpyStaff: {
+		DisplayName: Harpy Staff
+		Tooltip: Shoots a spread of feathers
+	}
+
+	IceCreamStaff: {
+		DisplayName: Ice Cream Staff
+		Tooltip: Shoots a freezing beam
+	}
+
+	OsmiumStaff: {
+		DisplayName: Osmium Staff
+		Tooltip: Shoots an osmium beam
+	}
+
+	HellfireTome: {
+		DisplayName: Hellfire Tome
+		Tooltip: Casts a spread of hellfire bolts
+	}
+
+	PoisonTome: {
+		DisplayName: Poison Tome
+		Tooltip: Casts a slow poisonous bolt
+	}
+
+	DeathHarbinger: {
+		DisplayName: Death Harbinger
+		Tooltip:
+			'''
+			Dedicated weapon
+			Shoots an extinction scythe
+			'''
+	}
+
+	ShadowSpear: {
+		DisplayName: Shadow Spear
+		Tooltip: ""
+	}
+
+	ColdBlood: {
+		DisplayName: Cold Blood
+		Tooltip:
+			'''
+			Dedicated weapon
+			Shoots two blood vessels that can apply different debuffs
+			'''
+	}
+
+	HarpyKnives: {
+		DisplayName: Harpy Knives
+		Tooltip:
+			'''
+			Throws a harpy knife
+			Ocasionally throws fast moving feathers
+			'''
+	}
+
+	StingerArrow: {
+		DisplayName: Stinger Arrow
+		Tooltip: Inflicts poison
+	}
+
+	JungleBow: {
+		DisplayName: Jungle Bow
+		Tooltip: Wooden arrows turn into stinger arrows
+	}
+
+	SakuyaKnives: {
+		DisplayName: Sakuya Knives
+		Tooltip:
+			'''
+			Dedicated weapon
+			Throws three knives that compress the flow of time
+			increasing the quantity of knives in the current timeline
+			'''
+	}
+
+	GoldGlaive: {
+		DisplayName: Gold Glaive
+		Tooltip: ""
+	}
+
+	PlatinumHalberd: {
+		DisplayName: Platinum Halberd
+		Tooltip: ""
+	}
+
+	OsmiumBar: {
+		DisplayName: Osmium Bar
+		Tooltip:
+			'''
+			An ancient metal that was once used as an attempt to seal 
+			the darkness and stop it from thriving
+			'''
+	}
+
+	OsmiumOre: {
+		DisplayName: Osmium Ore
+		Tooltip:
+			'''
+			It emits a faint light
+			Can be found in the tundra caverns
+			'''
+	}
+
+	OsmiumHamaxe: {
+		DisplayName: Osmium Hamaxe
+		Tooltip: ""
+	}
+
+	OsmiumPickaxe: {
+		DisplayName: Osmium Pickaxe
+		Tooltip: ""
+	}
+
+	OsmiumGlaive: {
+		DisplayName: Osmium Glaive
+		Tooltip: ""
+	}
+
+	OsmiumGreatsword: {
+		DisplayName: Osmium Greatsword
+		Tooltip: ""
+	}
+
+	OsmiumYoyo: {
+		DisplayName: Osmium Yoyo
+		Tooltip: ""
+	}
+
+	OsmiumBow: {
+		DisplayName: Osmium Bow
+		Tooltip: Turns arrows into osmium lasers
+	}
+
+	CrimtaneAxe: {
+		DisplayName: Crimson Hatchet
+		Tooltip: Throws an infinite ammount of crimson hatchets
+	}
+
+	DemoniteAxe: {
+		DisplayName: Shadow Hatchet
+		Tooltip: Throws an infinite ammount of shadow hatchets
+	}
+
+	MushroomStaff: {
+		DisplayName: Mushroom Staff
+		Tooltip: Shoots magic mushrooms that leaves a lingering mushroom cloud in contact
+	}
+
+	DarknessGreatsword: {
+		DisplayName: Darkness Greatsword
+		Tooltip: Ignores 5 points of the enemy defense
+	}
+
+	BoneAxe: {
+		DisplayName: Fossil Hatchet
+		Tooltip: Throws an infinite ammount of bone hatchets
+	}
+
+	DarknessEssence: {
+		DisplayName: Darkness Essence
+		Tooltip: Remains of shadows
+	}
+
+	GlowingFungi: {
+		DisplayName: Glowing Fungi
+		Tooltip: Once dormant fungus mutated to adapt to the ever growing darkness
+	}
+
+	HarpyScythe: {
+		DisplayName: Harpy Scythe
+		Tooltip: Shoots a harpy slash
+	}
+
+	ColdBloodBullet: {
+		DisplayName: Cold Blood Vessel 1
+		Tooltip: Inflicts cursed flames
+	}
+
+	ColdBloodBullet2: {
+		DisplayName: Cold Blood Vessel 2
+		Tooltip: Inflicts ichor
+	}
+
+	DemonRoarBullet: {
+		DisplayName: Demon's Roar Bullet
+		Tooltip: Inflicts confusion
+	}
+
+	DemonRoar: {
+		DisplayName: Demon's Roar
+		Tooltip:
+			'''
+			It uses a silencer because of its loud roaring noise when fired
+			Ignores 10 points of the enemy defense
+			Has a chance to confuse targets
+			'''
+	}
+
+	MushroomBullet: {
+		DisplayName: Mushroom Round
+		Tooltip: Leaves a lingering mushroom cloud in contact
+	}
+
+	Icicle: {
+		DisplayName: Icicle
+		Tooltip: Throws an Icicle that inflicts frostburn
+	}
+
+	MushroomGrenade: {
+		DisplayName: Mushroom Grenade
+		Tooltip: Leaves multiple lingering mushroom clouds when exploding
+	}
+
+	DarknessCrossbow: {
+		DisplayName: Darkness Crossbow
+		Tooltip:
+			'''
+			Shoots 2 darkness arrows in a small spread
+			Ignores 5 points of the enemy defense
+			'''
+	}
+
+	BoneBow: {
+		DisplayName: Crossbowne
+		Tooltip: Shoots crossbones at enemies while you are attacking
+	}
+
+	OsmiumArrow: {
+		Tooltip: Behave like a laser affected by gravity
+		DisplayName: Osmium Arrow
+	}
+
+	DarknessArrow: {
+		Tooltip: ""
+		DisplayName: Darkness Arrow
+	}
+
+	IceBreaker: {
+		Tooltip: Inflicts frostburn on contact
+		DisplayName: Ice Breaker
+	}
+
+	VenomTome: {
+		Tooltip: Casts a venomous bolt
+		DisplayName: Venom Tome
+	}
+
+	DarknessGreatstaff: {
+		Tooltip:
+			'''
+			Shoots multiple homing darkness bolts
+			Ignores 5 points of the enemy defense
+			'''
+		DisplayName: Darkness Greatstaff
+	}
+
+	SuspiciousLookingCross: {
+		Tooltip: Summons a gloom sludge
+		DisplayName: Suspicious Looking Cross
+	}
+
+	MushroomYoyo: {
+		Tooltip: Can leave a lingering mushroom cloud on hit
+		DisplayName: Mushroom Yoyo
+	}
+
+	CrimtaneScythe: {
+		DisplayName: Blood Harvester
+		Tooltip: Shoots a bloody scythe
+	}
+
+	DemoniteScythe: {
+		DisplayName: Soul Reaper
+		Tooltip: Shoots a soul scythe
+	}
+
+	WaterScythe: {
+		DisplayName: Aqua Sickle
+		Tooltip: Shoots a water slash
+	}
+
+	IceStorm: {
+		DisplayName: Ice Storm
+		Tooltip: Shoots a spread of magic icicles
+	}
+
+	HellfireDart: {
+		DisplayName: Hellfire Dart
+		Tooltip: Leaves lingering flames on contact
+	}
+
+	PiercingDart: {
+		DisplayName: Piercing Dart
+		Tooltip: Pierce multiple targets
+	}
+
+	GlowingFungusStaff: {
+		DisplayName: Glowing Fungus Staff
+		Tooltip: Summons a flying fungus to fight for you
+	}
+
+	Ideal: {
+		Tooltip:
+			'''
+			The path to becoming the ultimate gourmand is through the scope
+			Shoots a powerful bullet that pierces through multiple targets
+			'''
+		DisplayName: Ideal
+	}
+
+	CrackShot: {
+		Tooltip:
+			'''
+			A specialist never blames their tools.
+			Shoots a bullet that splits into 3 explosive bullets
+			'''
+		DisplayName: Crack Shot
+	}
+
+	HellstoneAxe: {
+		Tooltip: Throws an infinite ammount of fiery hatchets
+		DisplayName: Molten Hatchet
+	}
+
+	IdealBullet: {
+		Tooltip: ""
+		DisplayName: Ideal Bullet
+	}
+
+	CrackShotBullet: {
+		Tooltip: ""
+		DisplayName: Crack Shot Bullet
+	}
+
+	FossilYoyo: {
+		Tooltip: ""
+		DisplayName: Fossil Yoyo
+	}
+
+	DarknessDie: {
+		Tooltip:
+			'''
+			damage decreased by 2
+			8% increased critical strike chance
+			'''
+		DisplayName: Darkness Die
+	}
+
+	ChainGauntlet: {
+		Tooltip:
+			'''
+			Melee damage increased by 1
+			6% increased melee speed
+			Reduces damage dealt by other classes
+			'''
+		DisplayName: Chain Gauntlet
+	}
+
+	ArcaneRing: {
+		Tooltip:
+			'''
+			Magic damage increased by 1
+			5% reduced mana usage
+			Increases maximum mana by 20
+			Reduces damage dealt by other classes
+			'''
+		DisplayName: Arcane Ring
+	}
+
+	FrostGem: {
+		Tooltip: Contains freezing magic
+		DisplayName: Frost Gem
+	}
+
+	DesertGloves: {
+		DisplayName: Desert Gloves
+		Tooltip:
+			'''
+			Ranged damage increased by 1
+			4% increased ranged critical strike chance
+			5% increased movement speed
+			Reduces damage dealt by other classes
+			'''
+	}
+
+	LostShard: {
+		Tooltip: A piece of the forgotten past
+		DisplayName: Lost Shard
+	}
+
+	JungleScythe: {
+		DisplayName: Jungle Scythe
+		Tooltip: Shoots a poisonous scythe
+	}
+
+	DemoniteStaff: {
+		Tooltip: Shoots a shadow bolt
+		DisplayName: Umbra Staff
+	}
+
+	CrimtaneStaff: {
+		Tooltip: Shoots a bloody bolt
+		DisplayName: Bloodshed Staff
+	}
+
+	DarknessAssassinHood: {
+		SetBonus: Increases ranged critical strike chance, movement speed and acceleration by 6% after striking an enemy
+		DisplayName: Dark Assassin Hood
+		Tooltip:
+			'''
+			6% increased ranged critical strike chance
+			Increased movement speed and acceleration by 4%
+			'''
+	}
+
+	DarknessKnightHelmet: {
+		SetBonus: Increases damage resistance by 8% after getting hit
+		DisplayName: Dark Knight Helmet
+		Tooltip: 8% increased melee critical strike chance
+	}
+
+	FrostCrown: {
+		SetBonus: The frost spirits will guard you
+		DisplayName: Frost Lord Crown
+		Tooltip:
+			'''
+			Increases maximum mana by 40
+			6% reduced mana usage
+			'''
+	}
+
+	DarknessAssassinPants: {
+		DisplayName: Dark Assassin Pants
+		Tooltip:
+			'''
+			4% increased ranged critical strike chance
+			Increased movement speed and acceleration by 4%
+			'''
+	}
+
+	DarknessAssassinShirt: {
+		DisplayName: Dark Assassin Shirt
+		Tooltip: 8% increased ranged damage
+	}
+
+	DarknessKnightChestplate: {
+		DisplayName: Dark Knight Chestplate
+		Tooltip:
+			'''
+			8% increased melee damage
+			4% increased melee speed
+			'''
+	}
+
+	DarknessKnightLeggings: {
+		DisplayName: Dark Knight Leggings
+		Tooltip:
+			'''
+			8% increased melee speed
+			4% increased melee damage
+			'''
+	}
+
+	FrostPants: {
+		DisplayName: Frost Lord Pants
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			6% reduced mana usage
+			'''
+	}
+
+	FrostShirt: {
+		DisplayName: Frost Lord Shirt
+		Tooltip:
+			'''
+			Increases maximum mana by 60
+			8% increased magic critical strike chance
+			'''
+	}
+
+	NightmareFuel: {
+		Tooltip: It contains an immense amount of obscurity within it
+		DisplayName: Nightmare Fuel
+	}
+
+	FallenKnightPotion: {
+		Tooltip: 8% increased melee speed and 4% decreased melee critical strike chance
+		DisplayName: Fallen Knight Potion
+	}
+
+	ShadowCodex: {
+		Tooltip:
+			'''
+			Casts a nightmare skull
+			Ignores 10 points of the enemy defense
+			'''
+		DisplayName: Shadow Codex
+	}
+
+	ShadeTome: {
+		Tooltip:
+			'''
+			Casts a darkness skull
+			Ignores 5 points of the enemy defense
+			'''
+		DisplayName: Shade Tome
+	}
+
+	PharaohCurse: {
+		Tooltip: Casts homing curses
+		DisplayName: Pharaoh Curse
+	}
+
+	FallenPaladinEmblem: {
+		DisplayName: Fallen Paladin Emblem
+		Tooltip:
+			'''
+			8% increased melee damage
+			6% increased melee speed
+			Reduces damage dealt by other classes
+			'''
+	}
+
+	HunterEmblem: {
+		DisplayName: Hunter Emblem
+		Tooltip:
+			'''
+			10% increased ranged damage
+			4% increased ranged critical strike chance
+			5% increased movement speed and acceleration
+			Reduces damage dealt by other classes
+			'''
+	}
+
+	MysticEmblem: {
+		DisplayName: Mystic Emblem
+		Tooltip:
+			'''
+			10% increased magic damage
+			8% reduced mana usage
+			Increases maximum mana by 40
+			Reduces damage dealt by other classes
+			'''
+	}
+
+	InfernalSharpshooterBullet: {
+		DisplayName: Infernal Sharpshooter Bullet
+		Tooltip: ""
+	}
+
+	InfernalSharpshooter: {
+		DisplayName: Infernal Sharpshooter
+		Tooltip: BLOOD IS FUEL
+	}
+
+	CeobeKnife: {
+		DisplayName: Ceobe's Armory
+		Tooltip:
+			'''
+			Dedicated weapon
+			Dadadadada!
+			Ignores 5 points of the enemy defense
+			Each knife have a different effect
+			'''
+	}
+
+	HellstoneScythe: {
+		DisplayName: Hellfire Scythe
+		Tooltip: Shoots a fiery scythe
+	}
+
+	ForgottenGreatsword: {
+		DisplayName: Forgotten Greatsword
+		Tooltip: Shoots a sand blade
+	}
+
+	MidnightScythe: {
+		DisplayName: Midnight Scythe
+		Tooltip: Shoots a night scythe
+	}
+
+	Frostball: {
+		DisplayName: Frostball
+		Tooltip: Inflicts frostburn
+	}
+
+	PermafrostAxe: {
+		DisplayName: Permafrost Hatchet
+		Tooltip: Throws an infinite ammount of frost hatchets
+	}
+
+	CursedArtifact: {
+		DisplayName: Cursed Artifact
+		Tooltip:
+			'''
+			Summon damage increased by 1
+			Increases whip range by 6%
+			Slightly increase summon knockback
+			Reduces damage dealt by other classes
+			'''
+	}
+
+	EvokerEmblem: {
+		DisplayName: Evoker Emblem
+		Tooltip:
+			'''
+			12% Increased summon damage
+			Increases whip range by 12%
+			Slightly increase summon knockback
+			Reduces damage dealt by other classes
+			'''
+	}
+
+	ForgottenLightStaff: {
+		DisplayName: Forgotten Light Staff
+		Tooltip: Summons a forgotten light relic to fight for you
+	}
+
+	SkyKeeperStaff: {
+		DisplayName: Sky Keeper Staff
+		Tooltip: Summons a sky keeper to fight for you
+	}
+
+	OnionRing: {
+		DisplayName: Onion Ring
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			'Characters with the "Scavenger"
+			perk will sometimes receive an
+			onion ring in their fries.'
+			'''
+	}
+}
+
+NPCs: {
+	BucketheadZombie.DisplayName: Buckethead Zombie
+	MotherMotherSlime.DisplayName: Grand Mother Slime
+	GlitterSlime.DisplayName: Glitter Slime
+	DarknessSludge.DisplayName: Darkness Sludge
+	OsmiumSentinel.DisplayName: Osmium Sentinel
+	GiantDarknessSludge.DisplayName: Giant Darkness Sludge
+	FlyingFungus.DisplayName: Flying Fungus
+	DarknessBat.DisplayName: Darkness Bat
+	FrostWormTail.DisplayName: Frost Worm
+	FrostWormHead.DisplayName: Frost Worm
+	FrostWormBody.DisplayName: Frost Worm
+	NightTerror.DisplayName: Night Terror
+	DarknessOccultist.DisplayName: Dark Occultist
+	DarknessCast.DisplayName: Darkness Cast
+	PurpleJellyfish.DisplayName: Purple Jellyfish
+	SpikedDarknessSludge.DisplayName: Spiked Darkness Sludge
+	SkyGuardian.DisplayName: Sky Guardian
+	FrozenSpirit.DisplayName: Frozen Spirit
+}
+
+Projectiles: {
+	HarpyStaffProj.DisplayName: Magic feather
+	HellfireTomeProj.DisplayName: Hellfire bolt
+	IceCreamProj.DisplayName: Ice beam
+	OsmiumStaffProj.DisplayName: Osmium beam
+	PoisonTomeProj.DisplayName: Poisonous bolt
+	DeathHarbingerProj.DisplayName: Extinction Scythe
+	DeathHarbingerProj1.DisplayName: Death Harbinger
+	GoldGlaiveProj.DisplayName: Gold glaive
+	PlatinumHalberdProj.DisplayName: Platinum halberd
+	ShadowSpearProj.DisplayName: Shadow spear
+	ColdBloodProj.DisplayName: Cold Blood Vessel
+	ColdBloodProj2.DisplayName: Cold Blood Vessel
+	HarpyKnivesProj.DisplayName: Harpy knife
+	HarpyKnivesProj1.DisplayName: Piercing feather
+	SakuyaKnivesProj.DisplayName: Sakuya knife
+	StingerArrowProj.DisplayName: Stinger arrow
+	OsmiumGlaiveProj.DisplayName: Osmium Glaive
+	OsmiumYoyoProj.DisplayName: Osmium Yoyo
+	CrimtaneAxeProj.DisplayName: Crimson Hatchet
+	DemoniteAxeProj.DisplayName: Shadow Hatchet
+	MushroomProj.DisplayName: Magic Mushroom
+	MushroomProj1.DisplayName: Mushroom Cloud
+	BoneAxeProj.DisplayName: Fossil Hatchet
+	HarpyScytheProj.DisplayName: Harpy Slash
+	DemonRoarProj.DisplayName: Demon's Roar bullet
+	IcicleProj.DisplayName: Icicle
+	MushroomBulletProj.DisplayName: Mushroom round
+	MushroomBulletProj1.DisplayName: Mushroom Cloud
+	MushroomGrenadeProj.DisplayName: Mushroom Grenade
+	MushroomGrenadeProj1.DisplayName: Mushroom Cloud
+	HostileDarknessProj.DisplayName: Dark bolt
+	HostileOsmiumLaser.DisplayName: Hostile Osmium Beam
+	OsmiumArrowProj.DisplayName: Osmium Laser
+	DarknessArrowProj.DisplayName: Darkness Arrow
+	DarknessSludgePet.DisplayName: Gloom Sludge
+	VenomTomeProj.DisplayName: Venom bolt
+	FriendlyDarknessProj.DisplayName: Darkness bolt
+	MushroomYoyoProj1.DisplayName: Mushroom Cloud
+	MushroomYoyoProj.DisplayName: Mushroom Yoyo
+	CrimtaneScytheProj.DisplayName: Blood Scythe
+	DemoniteScytheProj.DisplayName: Soul Scythe
+	WaterScytheProj.DisplayName: Water Slash
+	IceStormProj.DisplayName: Magic Icicle
+	HostileMushroomCloud.DisplayName: Hostile Mushroom Cloud
+	HellfireDartProj.DisplayName: Fiery Dart
+	HellfireDartProj1.DisplayName: Fiery flames
+	PiercingDartProj.DisplayName: Piercing Dart
+	MushSummonProj.DisplayName: Small flying fungus
+	MushSummonProj1.DisplayName: Summon Mushroom
+	MushSummonProj2.DisplayName: Mushroom Cloud
+	CrackShotProj.DisplayName: Crack Shot Bullet
+	HellstoneAxeProj.DisplayName: Fiery Hatchet
+	IdealProj.DisplayName: Ideal Bullet
+	FossilYoyoProj.DisplayName: Fossil Yoyo
+	OsmiumSwordProj.DisplayName: Osmium Greatsword
+	SakuyaKnivesProj1.DisplayName: Sakuya Knife
+	JungleScytheProj.DisplayName: Jungle Scythe
+	DemoniteStaffProj.DisplayName: Shadow bolt
+	CrimtaneStaffProj.DisplayName: Bloody bolt
+	OsmiumSwordProj1.DisplayName: Osmium Sword
+	ShadowCodexProj.DisplayName: Nightmare Skull
+	ShadeTomeProj.DisplayName: Darkness Skull
+	PharaohCurseProj.DisplayName: Pharaoh's Curse
+	InfernalSharpshooterProj.DisplayName: Infernal Sharpshooter Bullet
+	HostileDarknessSpike.DisplayName: Hostile Darkness Spike
+	CeobeKnifeProj.DisplayName: Really hot knife
+	CeobeKnifeProj1.DisplayName: Really cold knife
+	CeobeKnifeProj2.DisplayName: Really heavy knife
+	ForgottenGreatswordProj.DisplayName: Sand Blade
+	HellstoneScytheProj.DisplayName: Fiery Scythe
+	MidnightScytheProj.DisplayName: Night's Scythe
+	FrostballProj.DisplayName: Frostball
+	PermafrostAxeProj.DisplayName: Permafrost Hatchet
+	HostileSkyGuardianProj.DisplayName: Hostile magic feather
+	HostileSkyGuardianProj1.DisplayName: Hostile magic feather
+	ForgottenLightSummon.DisplayName: Forgotten light relic
+	ForgottenLightSummonProj.DisplayName: light beam
+	SkyGuardianSummon.DisplayName: Small sky warden
+	SkyGuardianSummonProj.DisplayName: Small magic feather
+	FrostSpiritProj.DisplayName: Frost Spirit Proj
+}
+
+Content: {
+	Items: {
+		Placeable: {
+			FormattedBannerName: "{0} Banner"
+			FormattedBannerTooltip: "{$CommonItemTooltip.BannerBonus}{0}"
+		}
+	}
+}

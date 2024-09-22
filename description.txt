@@ -1,0 +1,34 @@
+- This mod is still in development so it doesn't have a lot of content but there is more planned for the future. 
+
+- Depths Of Darkness is a content mod focused on a dark thematic that brings a variety of new items, weapons, enemies and more to come in the future.
+My objective with this mod is to not change much of the original terraria experience and simply add to it.
+
+- Current version: 0.1.6.1
+  * Check the change notes for details of updates
+
+- Features:
+  * 100+ new items including:
+   * 9 new accessories
+   * 3 new armor sets (9 pieces of armor)
+   * 7 new crafting materials
+   * 60 new weapons
+  * 15 new enemies (13 of which with their own banner)
+  * recipes for a few vanilla items 
+  * and more to come!
+ 
+(tip: Once you defeat the boss on your evil biome new enemies will start appearing.)
+
+(tip2: I recommend the use of a mod called Recipe Browser to avoid missing any content as there's no wiki)
+
+- if there are bug reports, feedback or suggestions feel free to leave them bellow or message me on discord(.forthwind).
+
+- Dev team:
+Forthwind: main-dev, coder, spriter, beta-tester.
+
+- Special thanks:
+Bread: support-spriter, beta-tester.
+Murilo: beta-tester.
+
+- Thanks to everyone who supported me and to you for reading, hope you enjoy the mod!
+
+- Github: https://github.com/Forthwind17/DepthsOfDarkness
