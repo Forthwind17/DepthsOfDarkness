@@ -32,7 +32,7 @@ namespace DepthsOfDarkness.Content.Items.Weapons.Melee.Sword
 
             Item.value = Item.sellPrice(0, 1);
             Item.rare = ItemRarityID.Orange;
-            Item.UseSound = SoundID.Item1;
+            Item.UseSound = SoundID.Item1 with { Pitch = -0.25f };
         }
 
         public override void MeleeEffects(Player player, Rectangle hitbox)

@@ -10,7 +10,7 @@ using Terraria.ModLoader;
 namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 {
 	// This is a copy of the Excalibur's projectile
-	public class DeathHarbingerProj1 : ModProjectile
+	public class TrueDarknessGreatswordProj : ModProjectile
 	{
 
 		// We could use a vanilla texture if we want instead of supplying our own.
@@ -33,6 +33,7 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 			Projectile.friendly = true;
 			Projectile.DamageType = DamageClass.Melee;
 			Projectile.penetrate = 4;
+			Projectile.light = 0.5f;
 			Projectile.usesLocalNPCImmunity = true;
 			Projectile.localNPCHitCooldown = -1;
 			Projectile.tileCollide = false;
@@ -75,8 +76,8 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 			float adjustedRotation = MathHelper.Pi * direction * percentageOfLife + velocityRotation + direction * MathHelper.Pi + player.fullRotation;
 			Projectile.rotation = adjustedRotation; // Set the rotation to our to the new rotation we calculated.
 
-			float scaleMulti = 0.6f; // Excalibur, Terra Blade, and The Horseman's Blade is 0.6f; True Excalibur is 1f; default is 0.2f 
-			float scaleAdder = 1f; // Excalibur, Terra Blade, and The Horseman's Blade is 1f; True Excalibur is 1.2f; default is 1f 
+			float scaleMulti = 1.1f; // Excalibur, Terra Blade, and The Horseman's Blade is 0.6f; True Excalibur is 1f; default is 0.2f 
+			float scaleAdder = 1.3f; // Excalibur, Terra Blade, and The Horseman's Blade is 1f; True Excalibur is 1.2f; default is 1f 
 
 			Projectile.Center = player.RotatedRelativePoint(player.MountedCenter) - Projectile.velocity;
 			Projectile.scale = scaleAdder + percentageOfLife * scaleMulti;
@@ -86,14 +87,13 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 			// Look at AI_190_NightsEdge() in Projectile.cs for the others.
 
 			// Here we spawn some dust inside the arc of the swing.
-			Lighting.AddLight((int)Projectile.Center.X / 16, (int)Projectile.Center.Y / 16, 0.568627451f, 0.2f, 0.80393215686f);
 			float dustRotation = Projectile.rotation + Main.rand.NextFloatDirection() * MathHelper.PiOver2 * 0.7f;
 			Vector2 dustPosition = Projectile.Center + dustRotation.ToRotationVector2() * 84f * Projectile.scale;
 			Vector2 dustVelocity = (dustRotation + Projectile.ai[0] * MathHelper.PiOver2).ToRotationVector2();
 			if (Main.rand.NextFloat() * 2f < Projectile.Opacity)
 			{
 				// Original Excalibur color: Color.Gold, Color.White
-				Color dustColor = Color.Lerp(Color.Purple, Color.MediumPurple, Main.rand.NextFloat() * 0.3f);
+				Color dustColor = Color.Lerp(Color.DarkViolet, Color.Purple, Main.rand.NextFloat() * 0.3f);
 				Dust coloredDust = Dust.NewDustPerfect(Projectile.Center + dustRotation.ToRotationVector2() * (Main.rand.NextFloat() * 80f * Projectile.scale + 20f * Projectile.scale), DustID.FireworksRGB, dustVelocity * 1f, 100, dustColor, 0.4f);
 				coloredDust.fadeIn = 0.4f + Main.rand.NextFloat() * 0.15f;
 				coloredDust.noGravity = true;
@@ -102,7 +102,7 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 			if (Main.rand.NextFloat() * 1.5f < Projectile.Opacity)
 			{
 				// Original Excalibur color: Color.White
-				Dust.NewDustPerfect(dustPosition, DustID.TintableDustLighted, dustVelocity, 100, Color.Purple * Projectile.Opacity, 1.2f * Projectile.Opacity);
+				Dust.NewDustPerfect(dustPosition, DustID.TintableDustLighted, dustVelocity, 100, Color.Violet * Projectile.Opacity, 1.2f * Projectile.Opacity);
 			}
 
 			Projectile.scale *= Projectile.ai[2]; // Set the scale of the projectile to the scale of the item.
@@ -175,7 +175,7 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 		}
 
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
-		{
+        {
 			// Vanilla has several particles that can easily be used anywhere.
 			// The particles from the Particle Orchestra are predefined by vanilla and most can not be customized that much.
 			// Use auto complete to see the other ParticleOrchestraType types there are.
@@ -187,22 +187,22 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 			// Set the target's hit direction to away from the player so the knockback is in the correct direction.
 			hit.HitDirection = (Main.player[Projectile.owner].Center.X < target.Center.X) ? 1 : (-1);
 
-			target.AddBuff(BuffID.ShadowFlame, Main.rand.Next(120, 240), false);
+			target.AddBuff(BuffID.ShadowFlame, Main.rand.Next(120, 300), false);
 		}
 
 		public override void OnHitPlayer(Player target, Player.HurtInfo info)
-		{
-			ParticleOrchestrator.RequestParticleSpawn(clientOnly: false, ParticleOrchestraType.NightsEdge,
-				new ParticleOrchestraSettings { PositionInWorld = Main.rand.NextVector2FromRectangle(target.Hitbox) },
-				Projectile.owner);
+        {
+            ParticleOrchestrator.RequestParticleSpawn(clientOnly: false, ParticleOrchestraType.NightsEdge,
+                new ParticleOrchestraSettings { PositionInWorld = Main.rand.NextVector2FromRectangle(target.Hitbox) },
+                Projectile.owner);
 
-			info.HitDirection = (Main.player[Projectile.owner].Center.X < target.Center.X) ? 1 : (-1);
+            info.HitDirection = (Main.player[Projectile.owner].Center.X < target.Center.X) ? 1 : (-1);
 
-			if (Main.rand.NextBool(2))
-			{
-				target.AddBuff(BuffID.ShadowFlame, Main.rand.Next(120, 240), false);
-			}
-		}
+            if (Main.rand.NextBool(2))
+            {
+                target.AddBuff(BuffID.ShadowFlame, Main.rand.Next(120, 240), false);
+            }
+        }
 
 		// Taken from Main.DrawProj_Excalibur()
 		// Look at the source code for the other sword types.
@@ -212,16 +212,16 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 			Texture2D texture = TextureAssets.Projectile[Type].Value;
 			Rectangle sourceRectangle = texture.Frame(1, 4); // The sourceRectangle says which frame to use.
 			Vector2 origin = sourceRectangle.Size() / 2f;
-			float scale = Projectile.scale * 1.2f;
+			float scale = Projectile.scale * 1.1f;
 			SpriteEffects spriteEffects = ((!(Projectile.ai[0] >= 0f)) ? SpriteEffects.FlipVertically : SpriteEffects.None); // Flip the sprite based on the direction it is facing.
 			float percentageOfLife = Projectile.localAI[0] / Projectile.ai[1]; // The current time over the max time.
 			float lerpTime = Utils.Remap(percentageOfLife, 0f, 0.6f, 0f, 1f) * Utils.Remap(percentageOfLife, 0.6f, 1f, 1f, 0f);
 			float lightingColor = Lighting.GetColor(Projectile.Center.ToTileCoordinates()).ToVector3().Length() / (float)Math.Sqrt(3.0);
 			lightingColor = Utils.Remap(lightingColor, 0.2f, 1f, 0f, 1f);
 
-			Color backDarkColor = new Color(91, 17, 137); // Original Excalibur color: Color(180, 160, 60)
-			Color middleMediumColor = new Color(114, 31, 166); // Original Excalibur color: Color(255, 255, 80)
-			Color frontLightColor = new Color(145, 51, 205); // Original Excalibur color: Color(255, 240, 150)
+			Color backDarkColor = new Color(61, 22, 102); // Original Excalibur color: Color(180, 160, 60)
+			Color middleMediumColor = new Color(81, 37, 137); // Original Excalibur color: Color(255, 255, 80)
+			Color frontLightColor = new Color(98, 39, 158); // Original Excalibur color: Color(255, 240, 150)
 
 			Color whiteTimesLerpTime = Color.White * lerpTime * 0.5f;
 			whiteTimesLerpTime.A = (byte)(whiteTimesLerpTime.A * (1f - lightingColor));

@@ -691,6 +691,38 @@ Items: {
 			onion ring in their fries.'
 			'''
 	}
+
+	TrueDarknessGreatstaff: {
+		DisplayName: True Darkness Greatstaff
+		Tooltip:
+			'''
+			Shoots multiple homing darkness bolts
+			Ignores 15 points of the enemy defense
+			'''
+	}
+
+	TrueDarknessGreatsword: {
+		DisplayName: True Darkness Greatsword
+		Tooltip: Ignores 15 points of the enemy defense
+	}
+
+	DarknessGreatbow: {
+		DisplayName: Darkness Greatbow
+		Tooltip:
+			'''
+			Shoots 2 darkness arrows in a small spread
+			Ignores 5 points of the enemy defense
+			'''
+	}
+
+	ForgottenLongBow: {
+		DisplayName: Forgotten Long Bow
+		Tooltip:
+			'''
+			In addition to regular arrows it may ocasionally
+			shoot a magic arrow that pierces enemies
+			'''
+	}
 }
 
 NPCs: {
@@ -795,6 +827,9 @@ Projectiles: {
 	SkyGuardianSummon.DisplayName: Small sky warden
 	SkyGuardianSummonProj.DisplayName: Small magic feather
 	FrostSpiritProj.DisplayName: Frost Spirit Proj
+	TrueDarknessProj.DisplayName: True Darkness Proj
+	TrueDarknessGreatswordProj.DisplayName: True Darkness Greatsword Proj
+	SandstormArrowProj.DisplayName: Sandstorm Arrow
 }
 
 Content: {

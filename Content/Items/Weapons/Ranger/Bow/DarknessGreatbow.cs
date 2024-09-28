@@ -9,7 +9,7 @@ using Terraria.DataStructures;
 
 namespace DepthsOfDarkness.Content.Items.Weapons.Ranger.Bow
 {
-    public class DarknessCrossbow : ModItem
+    public class DarknessGreatbow : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -19,8 +19,8 @@ namespace DepthsOfDarkness.Content.Items.Weapons.Ranger.Bow
         public override void SetDefaults()
         {
             // Common Properties
-            Item.width = 50; // Hitbox width of the item.
-            Item.height = 18; // Hitbox height of the item.
+            Item.width = 24; // Hitbox width of the item.
+            Item.height = 68; // Hitbox height of the item.
             Item.rare = ItemRarityID.Orange; // The color that the item's name will be in-game.
             Item.value = Item.sellPrice(0, 1);
 

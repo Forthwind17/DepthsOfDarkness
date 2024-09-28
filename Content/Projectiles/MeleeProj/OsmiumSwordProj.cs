@@ -13,7 +13,7 @@ namespace DepthsOfDarkness.Content.Projectiles.MeleeProj
 	{
 
 		// We could use a vanilla texture if we want instead of supplying our own.
-		// public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.Excalibur;
+		public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.Excalibur;
 
 		public override void SetStaticDefaults()
 		{

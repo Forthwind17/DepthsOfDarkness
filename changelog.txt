@@ -1,1 +1,4 @@
-- the mod now is open source on github the link to the github page is attached on the links section.
+- New icon
+- Removed Darkness Crossbow
+- Added Darkness Greatbow to substitute the Darkness Crossbow
+- Added 3 new hardmode weapons for Mage, Melee and Ranger with more to come in the future

@@ -3,15 +3,15 @@
 - Depths Of Darkness is a content mod focused on a dark thematic that brings a variety of new items, weapons, enemies and more to come in the future.
 My objective with this mod is to not change much of the original terraria experience and simply add to it.
 
-- Current version: 0.1.6.1
+- Current version: 0.2
   * Check the change notes for details of updates
 
 - Features:
-  * 100+ new items including:
+  * 110+ new items including:
    * 9 new accessories
    * 3 new armor sets (9 pieces of armor)
    * 7 new crafting materials
-   * 60 new weapons
+   * 63 new weapons
   * 15 new enemies (13 of which with their own banner)
   * recipes for a few vanilla items 
   * and more to come!
