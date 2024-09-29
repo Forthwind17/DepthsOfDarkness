@@ -8,7 +8,7 @@ My objective with this mod is to not change much of the original terraria experi
 ## Relevant Information
 
 1) This mod was developed by one person with no previous experience on programming so it's not the most optmized code.
-2) You are free to utilize the code with creadit. However the same does not apply to art, music or anything of the kind.
+2) You are free to utilize the code with credit. However the same does not apply to art, music or anything of the kind.
 3) I don't have that much time to develop the mod anymore but if you wish to help in the mod development please feel free to contact me on discord: .forthwind
 
 ## Credits and Thanks
